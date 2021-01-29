@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
 header {
 	display: flex;
 	top: 0;
@@ -61,9 +60,9 @@ body {
 	margin-top: 201px;
 }
 
-.titre {
+h1 {
 	font-family: 'Amatic SC', cursive;
-	font-size: 60px;
+	font-size: 70px;
 	font-weight: bold;
 	margin-top: 40px;
 	margin-left: 30px;
@@ -71,19 +70,71 @@ body {
 	color: #008080;
 }
 
-#conteneur {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	margin-right: 30px;
+h2 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	color: #008080;
+}
+
+h3 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	color: #000000;
+}
+
+.recette li
+{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
 	margin-left: 30px;
 }
 
-.plat p {
-	font-family: 'Amatic SC', cursive;
-	text-align: center;
-	font-size: 30px;
-	margin-top: 10px;
+.recette ol
+{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	margin-left: 30px;
+}
+
+p
+{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	margin-left: 30px;
+}
+
+.infos
+{
+	border-top: solid 1px #008080;
+	border-bottom: solid 1px #008080;
+	background-color: #008080;
+	padding: 20px;
+	margin-left: 80px;
+	padding-right: -200px;
+	padding-bottom: 191px;
+	color: #ffffff;
+}
+
+img
+{
+	float: left;
+	margin-right: 20px;
+	margin-left: 30px;
+	width: 500px;
 }
 
 a /* Liens par défaut (non survolés) */
