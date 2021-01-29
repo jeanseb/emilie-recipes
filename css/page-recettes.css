@@ -1,77 +1,67 @@
 @charset "utf-8";
 /* CSS Document */
-header
-{
-    display: flex;
+
+header {
+	display: flex;
 	top: 0;
 	width: 100%;
 	margin-bottom: 30px;
 	position: fixed;
-	
 }
 
-header img 
-{
+header img {
 	width: 100%;
 }
 
-.navigation
-{
-    display: flex;              /* Transformation en flexbox */
-    padding:0;                  /* Suppression des marges internes */
-    margin: 0px;
-	background-color: #008080;     /* Ajout de la couleur d'arrière-plan */
+.navigation {
+	display: flex; /* Transformation en flexbox */
+	padding: 0; /* Suppression des marges internes */
+	margin: 0px;
+	background-color: #008080; /* Ajout de la couleur d'arrière-plan */
 	font-family: 'Amatic SC', cursive;
 	font-size: 28px;
-
 }
 
-.navigation li 
-{
-    list-style-type: none ;       /* Suppression des puces */
-}
-
-.navigation a {
-    display:block;                /* Transformation en block */
-    min-width: 220px;             /* Largeur minimale des liens */
+.navigation li {
+	list-style-type: none; /* Suppression des puces */
 }
 
 .navigation a {
-    display:block;                /* Transformation en block */
-    min-width: 220px;             /* Largeur minimale des liens */   
-    
-    margin: 0rem;               /* Marges externes (1 valeurs = 4 directions) */
-    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
-    text-align: center;           /* Centrage du texte */   
-    background-color: #008080;    /* Couleur d'arrière-plan */
-    color: #fff;                  /* Couleur du texte */
-    text-decoration: none;        /* Suppression du soulignement */
-    border: 0px solid #fff;       /* Ajout d'une bordure */
-    border-radius: 0px;           /* Arrondis des bordures */
+	display: block; /* Transformation en block */
+	min-width: 220px; /* Largeur minimale des liens */
+}
 
+.navigation a {
+	display: block; /* Transformation en block */
+	min-width: 220px; /* Largeur minimale des liens */
+	margin: 0rem; /* Marges externes (1 valeurs = 4 directions) */
+	padding: 0.4rem 0; /* Marges internes (2 valeurs = haut/bas et gauche/droite) */
+	text-align: center; /* Centrage du texte */
+	background-color: #008080; /* Couleur d'arrière-plan */
+	color: #fff; /* Couleur du texte */
+	text-decoration: none; /* Suppression du soulignement */
+	border: 0px solid #fff; /* Ajout d'une bordure */
+	border-radius: 0px; /* Arrondis des bordures */
 }
 
 .navigation {
-    display: flex;              /* Transformation en flexbox */
-    padding:0;                  /* Suppression des marges internes */
-    background-color: #008080;     /* Ajout de la couleur d'arrière-plan */
-    justify-content: center     /* Alignements des liens dans le menu */
+	display: flex; /* Transformation en flexbox */
+	padding: 0; /* Suppression des marges internes */
+	background-color: #008080; /* Ajout de la couleur d'arrière-plan */
+	justify-content: center/* Alignements des liens dans le menu */
 }
 
 .navigation a:hover {
-  background-color: #80c0c0;
-  color: #008080;
-  border-color: #008080;
+	background-color: #80c0c0;
+	color: #008080;
+	border-color: #008080;
 }
 
-
-body
-{ 
-	margin-top: 201px; 
+body {
+	margin-top: 201px;
 }
 
-.titre
-{
+.titre {
 	font-family: 'Amatic SC', cursive;
 	font-size: 60px;
 	font-weight: bold;
@@ -79,20 +69,17 @@ body
 	margin-left: 30px;
 	margin-bottom: 20px;
 	color: #008080;
-
 }
 
-#conteneur
-{
-    display: flex;
+#conteneur {
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	margin-right: 30px;
 	margin-left: 30px;
 }
 
-.plat p
-{
+.plat p {
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 30px;
@@ -101,18 +88,12 @@ body
 
 a /* Liens par défaut (non survolés) */
 {
-   text-decoration: none;
-   color: black;
-   
+	text-decoration: none;
+	color: black;
 }
 
 a:hover /* Apparence au survol des liens */
 {
-   text-decoration: none;
-   color: #008080;
+	text-decoration: none;
+	color: #008080;
 }
-
-
-
-
-

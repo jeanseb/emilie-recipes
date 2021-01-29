@@ -1,59 +1,50 @@
 @charset "utf-8";
 /* CSS Document */
-header
-{
-    width: 100%;
+
+header {
+	width: 100%;
 	margin-bottom: 70px;
 }
 
-header img 
-{
+header img {
 	width: 100%;
 }
 
-#conteneur
-{
-    display: flex;
+#conteneur {
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	 
 }
 
-.menu p
-{
+.menu p {
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 40px;
 	margin-top: 10px;
 }
 
-.plat p
-{
+.plat p {
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 30px;
 	margin-top: 10px;
 }
 
-p
-{
+p {
 	font-family: 'Amatic SC', cursive;
 	font-size: 50px;
 	margin-left: 20px;
 	style: bold;
-
 }
 
 a /* Liens par défaut (non survolés) */
 {
-   text-decoration: none;
-   color: black;
-   
+	text-decoration: none;
+	color: black;
 }
 
 a:hover /* Apparence au survol des liens */
 {
-   text-decoration: none;
-   color: #008080;
+	text-decoration: none;
+	color: #008080;
 }
-
