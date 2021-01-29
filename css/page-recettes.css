@@ -2,13 +2,34 @@
 /* CSS Document */
 header
 {
-    width: 100%;
+    top: 0;
+	width: 100%;
 	margin-bottom: 30px;
+	position: fixed;
+	
 }
 
 header img 
 {
 	width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+	margin-left: 80px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	
+}
+
+body
+{ 
+	margin-top: 201px; 
 }
 
 .titre
