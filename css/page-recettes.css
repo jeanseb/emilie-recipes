@@ -78,7 +78,6 @@ body {
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
 	justify-content: center;
-
 }
 
 .plat p {
@@ -88,20 +87,17 @@ body {
 	margin-top: 10px;
 }
 
-a /* Liens par défaut (non survolés) */
-{
+a { /* Liens par défaut (non survolés) */
 	text-decoration: none;
 	color: black;
 }
 
-a:hover /* Apparence au survol des liens */
-{
+a:hover { /* Apparence au survol des liens */
 	text-decoration: none;
 	color: #008080;
 }
 
-footer
-{
+footer {
 	font-family: 'Cormorant Garamond', serif;
 	text-align: center;
 	background-color: #008080;

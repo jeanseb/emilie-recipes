@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 header {
 	display: flex;
 	top: 0;
@@ -47,7 +48,7 @@ header img {
 	display: flex; /* Transformation en flexbox */
 	padding: 0; /* Suppression des marges internes */
 	background-color: #008080; /* Ajout de la couleur d'arrière-plan */
-	justify-content: center/* Alignements des liens dans le menu */
+	justify-content: center; /* Alignements des liens dans le menu */
 }
 
 .navigation a:hover {
@@ -90,8 +91,7 @@ h3 {
 	color: #000000;
 }
 
-.recette li
-{
+.recette li {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 20px;
 	font-weight: bold;
@@ -99,8 +99,7 @@ h3 {
 	margin-left: 30px;
 }
 
-.recette ol
-{
+.recette ol {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 20px;
 	font-weight: bold;
@@ -108,8 +107,7 @@ h3 {
 	margin-left: 30px;
 }
 
-p
-{
+p {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 20px;
 	font-weight: bold;
@@ -117,44 +115,35 @@ p
 	margin-left: 30px;
 }
 
-.infos
+.infos {
+	border-top: solid 1px #008080;
+	border-bottom: solid 1px #008080;
+	background-color: #008080;
+	padding: 20px;
+	margin-left: 80px;
+	padding-right: -200px;
+	padding-bottom: 191px;
+	color: #ffffff;
+}
 
- {
-	 		border-top: solid 1px #008080;
-			border-bottom: solid 1px #008080;
-	 		background-color:#008080;
-			padding:20px;
-			margin-left: 80px;
-	 		padding-right: -200px;
-			padding-bottom: 191px;
-	 		color: #ffffff;
-	 		
-	 
-		}
+img {
+	float: left;
+	margin-right: 20px;
+	margin-left: 30px;
+	width: 500px;
+}
 
-img
-{
-			float:left;
-			margin-right:20px;				
-			margin-left:30px;
-			width:500px;
-		}
-
-
-a /* Liens par défaut (non survolés) */
-{
+a { /* Liens par défaut (non survolés) */
 	text-decoration: none;
 	color: black;
 }
 
-a:hover /* Apparence au survol des liens */
-{
+a:hover { /* Apparence au survol des liens */
 	text-decoration: none;
 	color: #008080;
 }
 
-footer
-{
+footer {
 	font-family: 'Cormorant Garamond', serif;
 	text-align: center;
 	background-color: #008080;
@@ -162,4 +151,3 @@ footer
 	color: #ffffff;
 	font-weight: 8px;
 }
-
